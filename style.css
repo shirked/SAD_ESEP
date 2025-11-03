@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px;
+  background: #1f6feb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.85em;
+}
+
+#successMsg {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
